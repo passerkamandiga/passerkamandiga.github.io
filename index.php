@@ -135,7 +135,7 @@
 				  </div>
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
-					 <button type="button" class="btn btn-theme btn-lg btn-block">Send message</button>
+					 <button type="send" class="btn btn-theme btn-lg btn-block">Send message</button>
 					</div>
 				  </div>
 				</form>
