@@ -112,15 +112,16 @@
 	  		<div class="row">
 	  			<div class="col-md-offset-1 col-md-10">
 
-				<form class="form-horizontal" role="form">
+				<form class="form-horizontal" role="form" action="MAILTO:someone@example.com" method="post" enctype="text/plain">
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
-					  <input type="text" class="form-control" id="inputName" placeholder="Name">
+					  <input type="text" class="form-control" id="inputName" placeholder="Name" name="name" value="your name"><br>
+					  <input type="text" name="name" value="your name"><br>
 					</div>
 				  </div>
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
-					  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+					  <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="mail" value="your email"><br>
 					</div>
 				  </div>
 				  <div class="form-group">
@@ -130,15 +131,15 @@
 				  </div>
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
-					  <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
+					  <textarea type="text" name="message" class="form-control" rows="3" placeholder="Message" value="your comment" size="50"><br><br></textarea>
 					</div>
 				  </div>
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
-					 <button type="button" class="btn btn-theme btn-lg btn-block">Send message</button>
+					 <button type="send" class="btn btn-theme btn-lg btn-block">Send message</button>
 					</div>
 				  </div>
-				</form>
+			</form>
 	
 	  			</div>
 		</section>
