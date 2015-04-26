@@ -148,7 +148,7 @@
 					<div class="col-md-4 footer-leftcol">
 						<p><span class="bold-16p">PASSERKA</span><br>
 						2015 PASSERKA<br>
-						MAN 3 KEDIRI- <a href="#">info@domain.com</a>
+						MAN 3 KEDIRI- <a href="#">AZuhri997@gmail.com</a>
 						</p>
 					</div>
 					<div class="col-md-4 footer-midcol">
