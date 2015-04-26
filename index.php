@@ -112,7 +112,7 @@
 	  		<div class="row">
 	  			<div class="col-md-offset-1 col-md-10">
 
-				<form action="MAILTO:someone@example.com" class="form-horizontal" role="form">
+				<form class="form-horizontal" role="form">
 				  <div class="form-group">
 					<div class="col-md-offset-2 col-md-8">
 					  <input type="text" class="form-control" id="inputName" placeholder="Name">
